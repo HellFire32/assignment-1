@@ -1,0 +1,150 @@
+body {
+    margin: 0;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Karla', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Orbitron', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.flexible-1 {
+    display: flex;
+    margin-top: 7%;
+}
+
+.half-width {
+    width: 50%;
+    padding-left: 11%;
+}
+
+div img {
+    width: 60%;
+}
+
+#focused {
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Orbitron', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 80px;
+}
+
+#mission {
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Orbitron', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 80px;
+    margin-top: -60px;
+    color: orange;
+}
+
+.border {
+    border-left: 6px solid salmon;
+    padding-left: 20px;
+}
+
+p {
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Karla', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Orbitron', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 25px;
+    font-weight: 400;
+    color: rgb(59, 55, 55);
+}
+
+.button {
+    text-decoration: none;
+    background-color: rgb(245, 93, 93);
+    padding: 15px 40px;
+    border-radius: 7px;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Karla', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Orbitron', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.orange {
+    color: orange;
+}
+
+#twenty-two {
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Karla', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Orbitron', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: bolder;
+}
+
+.flexible-2 {
+    display: flex;
+    padding-left: 10%;
+    padding-right: 8%;
+}
+
+.flexible-2 img {
+    height: 220px;
+}
+
+#first-box {
+    width: 30%;
+    background-color: rgb(234, 247, 246);
+    border-radius: 30px;
+    margin-right: 30px;
+    box-sizing: border-box;
+    padding: 20px 40px 30px;
+    /* height: 15%; */
+}
+
+#second-box {
+    width: 30%;
+    background-color: rgb(249, 231, 234);
+    border-radius: 30px;
+    margin-right: 30px;
+    box-sizing: border-box;
+    padding: 20px 40px 30px;
+    /* height: 100px; */
+}
+
+#third-box {
+    width: 30%;
+    background-color: rgb(248, 235, 217);
+    border-radius: 30px;
+    margin-right: 30px;
+    box-sizing: border-box;
+    padding: 20px 40px 30px;
+    /* height: 15%; */
+}
+
+.middle-page {
+    height: 550px;
+    display: flex;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+h3 {
+    font-size: 30px;
+}
