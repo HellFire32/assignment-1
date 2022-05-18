@@ -15,7 +15,7 @@ body {
 
 .half-width {
     width: 50%;
-    padding-left: 11%;
+    padding-left: 10%;
 }
 
 div img {
@@ -133,7 +133,7 @@ p {
     /* height: 15%; */
 }
 
-.middle-page {
+.middle-page1 {
     height: 550px;
     display: flex;
     padding-left: 10%;
@@ -141,10 +141,64 @@ p {
     margin-top: 5%;
     margin-bottom: 5%;
     background-image: url(images/shapes/shape-1.png);
+    background-size: 5%;
     background-repeat: no-repeat;
-    background-position: left;
+    background-position: 5.5% 20%;
 }
 
 h3 {
     font-size: 30px;
+}
+
+.middle-page1 div img {
+    height: 400px;
+    width: 400px;
+}
+
+.develope {
+    margin-left: 5%;
+}
+
+.develope h3 {
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.flexible-3 {
+    display: flex;
+    margin-top: -3%;
+    background-image: url(shape-2.png);
+    background-repeat: no-repeat;
+    background-size: 13%;
+    background-position: 88% 70%;
+    height: 700px;
+}
+
+.half-width h3 {
+    font-size: 40px;
+    font-weight: 900;
+}
+
+footer {
+    /* margin-top: 20%; */
+    background-color: rgb(1, 1, 40);
+    height: 200px;
+    padding-top: +20px;
+    text-align: center;
+}
+
+#lobster {
+    font-family: 'Lobster Two', cursive;
+    font-size: 40px;
+    /* text-align: center; */
+    /* padding-top: 30px; */
+    color: whitesmoke;
+}
+
+#lobster span {
+    color: salmon;
+}
+
+footer p {
+    color: aliceblue;
 }
