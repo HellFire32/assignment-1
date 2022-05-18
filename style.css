@@ -30,7 +30,7 @@ div img {
     font-size: 80px;
 }
 
-#mission {
+.mission {
     font-family: 'Dancing Script', cursive;
     font-family: 'Montserrat', sans-serif;
     font-family: 'Orbitron', sans-serif;
@@ -170,8 +170,8 @@ h3 {
     background-image: url(shape-2.png);
     background-repeat: no-repeat;
     background-size: 13%;
-    background-position: 88% 70%;
-    height: 700px;
+    background-position: 88% 85%;
+    height: 600px;
 }
 
 .half-width h3 {
@@ -201,4 +201,22 @@ footer {
 
 footer p {
     color: aliceblue;
+}
+
+.last-page {
+    height: 800px;
+    text-align: center;
+}
+
+.box {
+    display: flex;
+    margin: 50px;
+}
+
+.shadow {
+    box-shadow: 5px 10px 70px 5px salmon;
+    width: 30%;
+    padding: 30px;
+    margin-right: 30px;
+    border-radius: 30px;
 }
